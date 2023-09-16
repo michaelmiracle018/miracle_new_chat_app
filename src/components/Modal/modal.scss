@@ -1,0 +1,57 @@
+.modal_container {
+	position: fixed;
+	top: 0;
+	background: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	width: 100%;
+	left: 0;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.modal_wrap {
+		background: #fff;
+		width: 80vw;
+		max-width: 500px;
+        // height: 200px;
+		border-radius: 10px;
+		padding: 2rem 1rem;
+		text-align: center;
+	}
+
+	.modal h4 {
+		margin-bottom: 0;
+		line-height: 1.5;
+		color: #000;
+	}
+
+	.clear-btn,
+	.confirm-btn {
+		margin-top: 1rem;
+	}
+
+	.btn-container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.clear-btn,
+	.confirm-btn {
+		margin: 2rem 1rem;
+	}
+
+	h4 {
+		font-family: var(--font-family);
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		color: #000000;
+        margin-bottom: 1rem;
+	}
+
+    .load_btn {
+margin-top: 1.8rem;
+    }
+}

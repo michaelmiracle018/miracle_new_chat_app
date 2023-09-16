@@ -1,0 +1,17 @@
+.login {
+    height: 100vh;
+	
+	.login__content {
+		flex-direction: column;
+		width: 300px;
+		height: 300px;
+		background: #fff;
+		border-radius: 10px;
+
+		span {
+			font-size: 1rem;
+			font-family: var(--font-family);
+			margin-bottom: 3rem;
+		}
+	}
+}

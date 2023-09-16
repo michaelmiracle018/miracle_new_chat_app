@@ -1,0 +1,112 @@
+.pin__details-container {
+	background-color: var(--primary-color);
+	height: 100%;
+	.pin__details-wrapper {
+		max-width: 1100px;
+		margin: auto;
+		padding: 7rem 0;
+
+		.pin__details_sub-content {
+			padding: 2rem;
+			height: 100%;
+			background: #fff;
+			border-radius: 10px;
+			gap: 2rem;
+			display: flex;
+
+			@media screen and (max-width: 700px) {
+				flex-direction: column;
+			}
+
+			.pin__details_img-wrapper {
+				flex: 1;
+				height: 400px;
+				img {
+					max-width: 300px;
+					border-radius: 10px;
+				}
+			}
+			.pin__details-post {
+				display: flex;
+				justify-content: flex-start;
+				flex-direction: column;
+				flex: 2;
+				.download__icon {
+					width: 35px;
+					height: 35px;
+					margin-bottom: 1rem;
+					// background-color: transparent;
+					margin-left: 1rem;
+					background-color: #fff;
+					border-radius: 50%;
+					box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+					&:hover {
+						background: #e9e6e6;
+					}
+					a {
+						.download {
+							font-size: 1.5rem;
+						}
+					}
+				}
+
+				.title {
+					font-size: 1.5rem;
+					font-weight: 700;
+					font-family: var(--font-family);
+					color: #000;
+				}
+				.about {
+					font-size: 1rem;
+					font-weight: 400;
+					font-family: var(--font-family);
+					color: #000;
+					margin: 1rem 0;
+				}
+
+				.pin__details-comments {
+					h4 {
+						font-size: 1rem;
+						font-weight: 600;
+						font-family: var(--font-family);
+						color: #000;
+					}
+				}
+				.pin__details_write-content {
+					gap: 1rem;
+					.pin__input-img {
+						img {
+							width: 40px;
+							height: 40px;
+							border-radius: 50%;
+						}
+					}
+					.form__input {
+						flex: 2;
+						input {
+							border: 2px solid gray;
+							outline: none;
+							max-width: 600px;
+							padding: 0.8rem;
+							width: 100%;
+							border-radius: 10px;
+							&::placeholder {
+								padding-left: 1rem;
+								font-size: 1.3rem;
+								color: rgb(127, 125, 125);
+								font-size: 600;
+							}
+						}
+					}
+
+					.post__btn {
+						margin-right: 0.5rem;
+						button {
+							height: 45px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

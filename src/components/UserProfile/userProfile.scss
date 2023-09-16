@@ -1,0 +1,42 @@
+.userProfile__container {
+	.userProfile__sub-content {
+		.userProfile__logo {
+			padding: 2rem;
+			display: flex;
+			justify-content: space-between;
+			.userProfile__btn {
+				flex-direction: row;
+				margin: 3rem;
+				cursor: pointer;
+
+				.back-icon {
+					font-size: 1.5rem;
+				}
+			}
+		}
+		.profile__wrap {
+			.img__wrap {
+				img {
+					width: 120px;
+					height: 120px;
+					border-radius: 50%;
+				}
+			}
+
+			.profile__name {
+				margin: 1rem 0 1.7rem 0;
+				font-size: 2rem;
+				font-weight: 700;
+				font-family: var(--font-family);
+			}
+
+			.userProfile__view-btns {
+				flex-direction: row;
+				gap: 0.7rem;
+				button {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
