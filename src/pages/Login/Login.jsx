@@ -29,8 +29,10 @@ const Login = () => {
 	return (
 		<div className="login flex-center">
 			<div className="login__content flex-center">
-				<span>Login with Google to continue</span>
-				<GoogleLogin onSuccess={responseGoogle} onError={responseGoogle} />
+			<div className="login__text">Login with Google to continue</div>
+				<div className="">
+					<GoogleLogin onSuccess={responseGoogle} onError={responseGoogle} />
+				</div>
 			</div>
 		</div>
 	);

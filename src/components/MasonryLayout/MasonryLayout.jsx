@@ -5,7 +5,7 @@ import Masonry from "react-masonry-css";
 import "./masonryLayout.scss";
 
 const breakPointObject = {
-	default: 3,
+	default: 2,
 	3000: 6,
 	2000: 3,
 	1200: 3,
@@ -21,7 +21,7 @@ const MasonryLayout = ({ pins }) => {
 		<div>
 			{pins && (
 				<Masonry
-					className="masonry__container"
+					className="masonry__container "
 					breakpointCols={breakPointObject}
 				>
 					{pins.map((item, index) => {

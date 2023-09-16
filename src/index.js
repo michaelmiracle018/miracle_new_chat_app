@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
 import App from "./App";
-import { ClerkProvider } from "@clerk/clerk-react";
+// import { ClerkProvider } from "@clerk/clerk-react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
-const clerk_pub_key = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
+// const clerk_pub_key = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
 // 21512589211-kc21bknveotsare589sfvbcpjbkb529d.apps.googleusercontent.com
 // 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
 const root = ReactDOM.createRoot(document.getElementById("root"));
