@@ -75,6 +75,9 @@ const Pin = ({ pins }) => {
 										<a
 											href={`${image?.asset?.url}?dl=`}
 											className="flex-center"
+											onClick={(e) => {
+												e.stopPropagation();
+											}}
 										>
 											<MdDownloadForOffline className="download" />
 										</a>
