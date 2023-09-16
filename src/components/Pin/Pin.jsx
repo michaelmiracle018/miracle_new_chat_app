@@ -64,6 +64,7 @@ const Pin = ({ pins }) => {
 				onMouseEnter={() => setPostHovered(true)}
 				onMouseLeave={() => setPostHovered(false)}
 				onClick={() => navigate(`/pin-details/${_id}`)}
+				style={{cursor: "pointer"}}
 			>
 				<div className="img__wrap">
 					<img src={urlFor(image).width(250).url()} alt="" />
