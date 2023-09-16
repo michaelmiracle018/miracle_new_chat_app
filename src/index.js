@@ -5,13 +5,11 @@ import App from "./App";
 // import { ClerkProvider } from "@clerk/clerk-react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
-// const clerk_pub_key = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
-// 21512589211-kc21bknveotsare589sfvbcpjbkb529d.apps.googleusercontent.com
-// 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
+// 21512589211-76kcflv82ionn9eb91oqv4l5vo2bc61m.apps.googleusercontent.com
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<GoogleOAuthProvider clientId="21512589211-kc21bknveotsare589sfvbcpjbkb529d.apps.googleusercontent.com">
+		<GoogleOAuthProvider clientId="21512589211-76kcflv82ionn9eb91oqv4l5vo2bc61m.apps.googleusercontent.com">
 			{/* Your application tree goes here. */}
 			<App />
 		</GoogleOAuthProvider>
